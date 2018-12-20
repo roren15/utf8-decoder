@@ -1,7 +1,7 @@
 {
   "name": "utf8-deep-converter",
-  "version": "0.1.0",
-  "description": "Utf8 converter, adapted to deep type such as Object and Array, will auto detect if it is encoded",
+  "version": "0.1.2",
+  "description": "Utf8 converter, recursive converting for deep type such as Object and Array, will auto detect if it is encoded",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -9,7 +9,16 @@
   "keywords": [
     "utf8",
     "deep",
-    "converter"
+    "converter",
+    "recursive",
+    "convert",
+    "object",
+    "array",
+    "encode",
+    "encoder",
+    "decode",
+    "decoder",
+    "transfer"
   ],
   "homepage": "https://github.com/roren15/utf8-deep-converter",
   "author": {
