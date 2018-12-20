@@ -1,6 +1,6 @@
 # utf8-deep-converter
 
-Utf8 converter, recursive converting for deep type such as Object and Array, will auto detect if it is encoded
+Utf8 converter, convert recursively for deep type such as Object and Array
 
 [![npm install utf8-deep-converter](https://nodei.co/npm/utf8-deep-converter.png?mini=true)](https://www.npmjs.com/package/utf8-deep-converter)
 
@@ -25,7 +25,7 @@ converter.utf8DeepDecode({"obj":"å¯ä»¥","normal":"pass","æ°ç»":["
 
 ### Init
 
-```
+```javascript
 const converter = require('utf8-deep-converter')
 ```
 
@@ -37,7 +37,7 @@ encode utf8 type data
 
 |arguments|required|description|
 |:------:|:------:|------|
-|obj|true|will recursive encode, auto passing normal type|
+|obj|true|recursive encode, auto passing normal type|
 
 #### converter.utf8DeepDecode()
 
@@ -45,4 +45,4 @@ decode utf8 type data
 
 |arguments|required|description|
 |:------:|:------:|------|
-|obj|true|will recursive encode, auto passing normal type|
+|obj|true|recursive encode, auto passing normal type|
