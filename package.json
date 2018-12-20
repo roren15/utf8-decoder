@@ -1,0 +1,35 @@
+{
+  "name": "utf8-deep-converter",
+  "version": "0.1.0",
+  "description": "Utf8 converter, adapted to deep type such as Object and Array, will auto detect if it is encoded",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "utf8",
+    "deep",
+    "converter"
+  ],
+  "homepage": "https://github.com/roren15/utf8-deep-converter",
+  "author": {
+    "name": "roren15",
+    "email": "13204611934@126.com",
+    "url": "https://github.com/roren15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roren15/utf8-deep-converter.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "circular-json": "^0.5.9"
+  },
+  "bugs": {
+    "url": "https://github.com/roren15/utf8-deep-converter/issues"
+  },
+  "readmeFilename": "README.md"
+}
